@@ -1,12 +1,27 @@
-# Tags: latest, 5.9.2-debian-10-r22, 5.9.2, 5-debian-10, 5
+# Tags: latest, 5.9.2-debian-10-r27, 5.9.2, 5-debian-10, 5
 FROM bitnami/wordpress-intel:latest
-FROM bitnami/wordpress-intel:5.9.2-debian-10-r22
+FROM bitnami/wordpress-intel:5.9.2-debian-10-r27
 FROM bitnami/wordpress-intel:5.9.2
 FROM bitnami/wordpress-intel:5-debian-10
 FROM bitnami/wordpress-intel:5
 
 # Tags: _
 FROM bitnami/wordpress-intel:_
+
+# Tags: 5.9.2-debian-10-r26
+FROM bitnami/wordpress-intel:5.9.2-debian-10-r26
+
+# Tags: 5.9.2-debian-10-r25
+FROM bitnami/wordpress-intel:5.9.2-debian-10-r25
+
+# Tags: 5.9.2-debian-10-r24
+FROM bitnami/wordpress-intel:5.9.2-debian-10-r24
+
+# Tags: 5.9.2-debian-10-r23
+FROM bitnami/wordpress-intel:5.9.2-debian-10-r23
+
+# Tags: 5.9.2-debian-10-r22
+FROM bitnami/wordpress-intel:5.9.2-debian-10-r22
 
 # Tags: 5.9.2-debian-10-r21
 FROM bitnami/wordpress-intel:5.9.2-debian-10-r21
@@ -86,18 +101,3 @@ FROM bitnami/wordpress-intel:5.9.1-debian-10-r11
 
 # Tags: 5.9.1-debian-10-r10
 FROM bitnami/wordpress-intel:5.9.1-debian-10-r10
-
-# Tags: 5.9.1-debian-10-r9
-FROM bitnami/wordpress-intel:5.9.1-debian-10-r9
-
-# Tags: 5.9.1-debian-10-r8
-FROM bitnami/wordpress-intel:5.9.1-debian-10-r8
-
-# Tags: 5.9.1-debian-10-r7
-FROM bitnami/wordpress-intel:5.9.1-debian-10-r7
-
-# Tags: 5.9.1-debian-10-r6
-FROM bitnami/wordpress-intel:5.9.1-debian-10-r6
-
-# Tags: 5.9.1-debian-10-r5
-FROM bitnami/wordpress-intel:5.9.1-debian-10-r5
